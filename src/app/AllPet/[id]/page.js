@@ -1,5 +1,4 @@
 "use client"
-import AddedReview from "@/app/Components/AddedReview";
 import Footer from "@/app/Components/Footer";
 import Navber from "@/app/Components/Header";
 import PostReview from "@/app/Components/PostReview";
