@@ -73,28 +73,6 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 gap-8 mt-5 px-2 md:px-0">
-        <div className="rounded-xl relative overflow-hidden">
-            <img className="w-full h-full hover:scale-[1.1] duration-300" src="https://i.ibb.co/LtNvy24/Untitled-design-33.png" alt="" />
-            <div className="absolute top-5 md:top-16 right-8 md:right-14 space-y-3 flex flex-col items-center">
-                <h1 className="text-3xl md:text-5xl font-bold text-white">On SALE!</h1>
-                <div className="text-sm w-fit font-semibold px-2 py-1 bg-black bg-opacity-50 text-white">
-                    <p> Pet Accessories 30% OFF</p>
-                </div>
-                <Link href={"/AllAccessories"}> <button className="px-4 py-2 text-sm bg-red-500 hover:bg-white hover:text-secondary rounded-full duration-300 text-white font-medium">SHOP NOW</button></Link>
-            </div>
-        </div>
-        <div className="rounded-xl relative overflow-hidden">
-            <img className="w-full h-full hover:scale-[1.1] duration-300" src="https://i.ibb.co/pb3N5bC/Untitled-design-34.png" alt="" />
-            <div className="absolute top-5 md:top-16 left-8 md:left-14 space-y-3 flex flex-col items-center">
-                <h1 className="text-3xl md:text-5xl font-bold text-white">Cute Bird</h1>
-                <div className="text-sm w-fit font-semibold px-2 py-1 bg-black bg-opacity-50 text-white">
-                    <p>Bird Accessories</p>
-                </div>
-               <Link href={"/AllAccessories"}> <button className="px-4 py-2 text-sm bg-red-500 hover:bg-white hover:text-secondary rounded-full duration-300 text-white font-medium">SHOP NOW</button></Link>
-            </div>
-        </div>
-      </div>
     </div>
   );
 };

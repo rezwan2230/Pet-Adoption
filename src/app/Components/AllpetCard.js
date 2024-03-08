@@ -39,12 +39,11 @@ const AllpetCard = ({data}) => {
             </p>
             <div className="flex items-center justify-between">
               <span className="font-bold text-lg">$ {adoption_fee}</span>
-              <Link href={`/AllPet/${_id}`}>
-                {" "}
+              {/* <Link href={`/AllPet/${_id}`}> */}
                 <button className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded">
                   Details
                 </button>
-              </Link>
+              {/* </Link> */}
             </div>
           </div>
         </div>

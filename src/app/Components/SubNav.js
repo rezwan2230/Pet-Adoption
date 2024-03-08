@@ -35,22 +35,22 @@ const SubNavbar = () => {
       {/* icon div start from here */}
       <div className="flex items-center gap-3">
         <div className="w-7 h-7 rounded-full bg-red-500  relative flex justify-center items-center group hover:bg-primary duration-500">
-          <a href="">
+          <a href="#">
             <FaFacebookF className="w-3 h-3 text-[#ffffff] group-hover:text-white"></FaFacebookF>
           </a>
         </div>
         <div className="w-7 h-7 rounded-full bg-red-500  relative flex justify-center items-center group hover:bg-primary duration-500">
-          <a href="">
+          <a href="#">
             <FaTwitter className="w-3 h-3 text-[#ffffff] group-hover:text-white"></FaTwitter>
           </a>
         </div>
         <div className="w-7 h-7 rounded-full bg-red-500  relative flex justify-center items-center group hover:bg-primary duration-500">
-          <a href="">
+          <a href="#">
             <FaInstagram className="w-3 h-3 text-[#ffffff] group-hover:text-white"></FaInstagram>
           </a>
         </div>
         <div className="w-7 h-7 rounded-full bg-red-500 relative flex justify-center items-center group hover:bg-primary duration-500">
-          <a href="">
+          <a href="#">
             <FaLinkedinIn className="w-3 h-3 text-[#ffffff] group-hover:text-white"></FaLinkedinIn>
           </a>
         </div>

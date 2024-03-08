@@ -20,12 +20,12 @@ const Footer = () => {
             incididunt ut laborea aaaeht dolore magna aliqua.
           </p>
           <div className="flex gap-2 md:gap-3 w-full justify-center mt-5">
-            <a href="https://www.facebook.com/ahmed.nahid.7127">
+            <a href="#">
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-600">
                   <FaFacebookF className="w-5 h-5 text-white"></FaFacebookF>
               </div>
             </a>
-            <a href="https://www.instagram.com/ahmed_nahid47/">
+            <a href="#">
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#ef4444]">
                   <FaInstagram className="w-5 h-5 text-white"></FaInstagram>
               </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <FaLinkedinIn className="w-5 h-5 text-white"></FaLinkedinIn>
               </div>
             </a>
-            <a href="https://github.com/NahidAhmed47">
+            <a href="#">
               <div className="w-8 h-8 flex items-center justify-center rounded-full bg-[#171515]">
                 <FaGithub className="w-5 h-5 text-white"></FaGithub>
               </div>

@@ -10,6 +10,7 @@ import useCart from "../hooks/useCart";
 import Swal from "sweetalert2";
 import useAdmin from "../hooks/useAdmin";
 import useSeller from "../hooks/useSeller";
+import { IoMdNotificationsOutline } from "react-icons/io";
 
 const Navbar = () => {
   const axiosPublic = useAxiosPublic();
@@ -61,17 +62,13 @@ const Navbar = () => {
           Swal.fire({
             position: "top-end",
             icon: "success",
-            title: 'You are requested to a seller',
+            title: 'You are requested to be a seller',
             showConfirmButton: false,
             timer: 1500
           });
         }
       })
   }
-
-
-
-
 
 
 
@@ -96,21 +93,21 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
+              {/* <Link
                 href={"/AllPet"}
                 className="focus:text-red-500 active:text-red-500"
-              >
+              > */}
                 All Pet
-              </Link>
+              {/* </Link> */}
             </li>
 
             <li>
-              <Link
+              {/* <Link
                 href={"/AllAccessories"}
                 className="focus:text-red-500 active:text-red-500"
-              >
+              > */}
                 All Accessories
-              </Link>
+              {/* </Link> */}
             </li>
 
             <li>
@@ -123,28 +120,23 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link
+              {/* <Link
                 href={"/contact"}
                 className="focus:text-red-500 active:text-red-500"
-              >
+              > */}
                 Contact
-              </Link>
+              {/* </Link> */}
             </li>
-            <li>
-              <Link
-                href={"/helpDesk"}
+            <li
                 className="focus:text-red-500 active:text-red-500"
               >
                 HelpDesk
-              </Link>
             </li>
-            <li>
-              <Link
-                href={"/Dashboard"}
+
+            <li
                 className="focus:text-red-500 active:text-red-500"
               >
                 Dashboard
-              </Link>
             </li>
           </ul>
 
@@ -172,21 +164,21 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  {/* <Link
                     href={"/AllPet"}
                     className="focus:text-red-500 active:text-red-500"
-                  >
+                  > */}
                     All Pet
-                  </Link>
+                  {/* </Link> */}
                 </li>
 
                 <li>
-                  <Link
+                  {/* <Link
                     href={"/AllAccessories"}
                     className="focus:text-red-500 active:text-red-500"
-                  >
+                  > */}
                     All Accessories
-                  </Link>
+                  {/* </Link> */}
                 </li>
 
                 <li>
@@ -199,20 +191,20 @@ const Navbar = () => {
                 </li>
 
                 <li>
-                  <Link
+                  {/* <Link
                     href={"/contact"}
                     className="focus:text-red-500 active:text-red-500"
-                  >
+                  > */}
                     Contact
-                  </Link>
+                  {/* </Link> */}
                 </li>
                 <li>
-                  <Link
+                  {/* <Link
                     href={"/Dashboard"}
                     className="focus:text-red-500 active:text-red-500"
-                  >
+                  > */}
                     Dashboard
-                  </Link>
+                  {/* </Link> */}
                 </li>
               </ul>
             </div>
@@ -220,8 +212,8 @@ const Navbar = () => {
             <div className="flex  items-center gap-x-6 text-lg font-medium">
               {user ? (
                 <>
-                  <Link href={"/Dashboard/MyCart"}>
-                    <button className="relative   ">
+                  {/* <Link href={"/Dashboard/MyCart"}> */}
+                    {/* <button className="relative   ">
                       <div className="t-0 absolute left-3">
                         <p
                           className="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-3 text-xs text-white"
@@ -244,8 +236,22 @@ const Navbar = () => {
                           d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
                         />
                       </svg>
-                    </button>
-                  </Link>
+                    </button> */}
+                  {/* </Link> */}
+
+                  {/* <Link href={"/Dashboard/MyCart"}> */}
+                    {/* <button className="relative   ">
+                      <div className="t-0 absolute left-3 mt-2">
+                        <p
+                          className="flex h-2 w-2 items-center justify-center rounded-full bg-red-500 p-3 -mt-2 text-xs text-white"
+                        >
+                          {1}
+                        </p>
+                      </div>
+                      <IoMdNotificationsOutline className="text-3xl mt-3"/>
+                    </button> */}
+                  {/* </Link> */}
+
 
                   <div
                     onClick={handleProfile}
@@ -320,13 +326,13 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div>
+            {/* <div>
               {user && !isAdmin && !isSeller &&
                 <button onClick={() => handleSeller()} className='lg:mt-4 md:my-3 mr-10 btn btn-sm btn-outline cursor-pointer items-center justify-center rounded-md border py-2 px-4 text-center text-gray-500 transition duration-150 ease-in-out hover:translate-y-1 hover:bg-[#ef4444] hover:text-white'>
                   Seller Request
                 </button>
-                }
-            </div>
+              }
+            </div> */}
           </div>
         </nav>
       </div>
